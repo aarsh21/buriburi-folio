@@ -16,12 +16,21 @@ const config = {
 		extend: {
 			colors: {
 				// CUSTOM COLORS CUSTOMSISE TO YOUR NEEDS
-				cat_primary: '#a6e3a1',
-				cat_secondary: '#74c7ec',
-				cat_tertiary: '#f9e2af',
-				cat_quaternary: '#cba6f7',
-				cat_base: '#1e1e2e',
-				cat_text: '#cdd6f4',
+				// CATPUCCIN
+				// cat_primary: '#a6e3a1',
+				// cat_secondary: '#74c7ec',
+				// cat_tertiary: '#f9e2af',
+				// cat_quaternary: '#cba6f7',
+				// cat_base: '#1e1e2e',
+				// cat_text: '#cdd6f4',
+
+				// VESPER
+				cat_primary: '#99FFE4',
+				cat_secondary: '#FFC799',
+				cat_tertiary: '#C594C5',
+				cat_quaternary: '#A0A0A0',
+				cat_base: '#101010',
+				cat_text: '#FFFFFF',
 
 				border: 'hsl(var(--border) / <alpha-value>)',
 				input: 'hsl(var(--input) / <alpha-value>)',

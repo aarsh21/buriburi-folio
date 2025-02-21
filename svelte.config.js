@@ -8,7 +8,7 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { bundledLanguages, createHighlighter } from 'shiki/bundle/web';
 
 const highlighterPromise = createHighlighter({
-	themes: ['catppuccin-frappe'],
+	themes: ['vesper'],
 	langs: Object.keys(bundledLanguages)
 });
 
@@ -25,7 +25,7 @@ const mdsvexOptions = {
 			const html = escapeSvelte(
 				highlighter.codeToHtml(code, {
 					lang,
-					theme: 'catppuccin-frappe'
+					theme: 'vesper'
 				})
 			);
 			return `{@html \`${html}\` }`;
