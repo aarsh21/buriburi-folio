@@ -3,7 +3,7 @@
 </script>
 
 <footer class="absolute bottom-[-150px] left-0 right-0 text-center">
-	<div class="mx-4 h-px flex-grow bg-white/40"></div>
+	<div class="mx-4 h-px grow bg-white/40"></div>
 	<div class="mb-0 flex flex-wrap items-center justify-center gap-x-4 gap-y-4 py-5">
 		{#each Links as link}
 			<a
