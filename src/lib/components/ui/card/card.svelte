@@ -16,7 +16,7 @@
 
 <div
 	class={cn(
-		'mx-auto  rounded-lg border border-cat_primary bg-cat_base text-cat_text shadow-sm transition-all  duration-100 ease-in-out hover:border-cat_quaternary',
+		'mx-auto  rounded-lg border border-cat_primary bg-cat_base text-cat_text shadow-xs transition-all  duration-100 ease-in-out hover:border-cat_quaternary',
 		className
 	)}
 	{...rest}
