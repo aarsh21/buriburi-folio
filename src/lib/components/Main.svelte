@@ -6,10 +6,11 @@
 	import { Projects, Work, Links } from '$lib/profileDetails';
 </script>
 
-<div class="mt-0 lg:mt-4">
-	<h1 class=" mb-4 text-3xl font-semibold text-cat_tertiary">Work</h1>
+<div class="mt-0 flex flex-col gap-y-4 lg:mt-4">
+	<h1 class=" mb-3 text-3xl font-semibold text-cat_tertiary">Work</h1>
 	{#each Work as work}
 		<WorkCard
+			isCurrent={work.isCurrent}
 			link={work.link}
 			position={work.position}
 			company={work.company}
