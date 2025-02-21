@@ -7,17 +7,44 @@ export const Name = 'Aarsh Padia';
 
 export const Location = 'Rajkot , Gujarat';
 
-export const Profession = 'Web Developer and OSS Contributor';
+export const Profession = 'Web Developer and AI enthusiastic';
 
 export const Bio = `I'm a 21 y/o cs undergrad student. I love building things , playing games and ricing my Arch
 	Linux. I enjoy web development and i live on the terminal. If I'm not coding, I'm probably losing
-	my mind in valorant or watching anime.`;
+	my mind in Marvel Rivals/Valorant or watching anime.`;
 
 export const Work = [
+	{
+		link: 'https://senpiper.com/',
+		position: 'AI Engineer Intern',
+		company: 'Senpiper Technologies',
+		isCurrent: true,
+		start_date: '02-2025',
+		end_date: 'Current',
+		responsibilities: [
+			'Trained and fine-tuned computer vision models for image detection tasks, improving model accuracy and performance metrics',
+			'Implemented Python-based microservices architecture for local development and testing environments',
+			'Conducted experimental analysis of various machine learning models, contributing to improved system understanding and optimization strategies'
+		]
+	},
+	{
+		link: 'https://syself.com/',
+		position: 'Software Developer Intern',
+		company: 'Syself GmbH',
+		isCurrent: false,
+		start_date: '09/2024',
+		end_date: '01/2025',
+		responsibilities: [
+			'Engineered and implemented a robust search functionality across documentation and platform interfaces, enhancing content discoverability and user navigation',
+			'Optimized documentation system performance through technical improvements, resulting in significantly faster load times and improved user experience',
+			'Developed and integrated various complex form implementations, ensuring seamless data collection and validation while maintaining high code quality standards'
+		]
+	},
 	{
 		link: 'https://dcycle.design/',
 		position: 'Web Development Intern',
 		company: 'Dcycle Design Studio',
+		isCurrent: false,
 		start_date: '06/2023',
 		end_date: '08/2023',
 		responsibilities: [
@@ -66,12 +93,12 @@ export const Links = [
 	},
 	{
 		name: 'Email',
-		url: 'mailto:aarshpersonal21@gmail.com',
+		url: 'mailto:aarshpersonal@proton.me',
 		icon: Mail
 	},
 	{
 		name: 'X',
-		url: 'https://x.com/bukubukufps',
+		url: 'https://x.com/sakamotozsh',
 		icon: X
 	},
 	{
@@ -86,7 +113,7 @@ export const Links = [
 	},
 	{
 		name: 'Twitch',
-		url: 'https://www.twitch.tv/weel3fps',
+		url: 'https://www.twitch.tv/sakamotozsh',
 		icon: Twitch
 	},
 	{

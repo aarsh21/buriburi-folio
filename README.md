@@ -1,4 +1,4 @@
-# ✨ Catppuccin Folio - Portfolio & Blog Template
+# ✨ buriburiFolio - Portfolio & Blog Template
 
 A sleek portfolio & blog template built with SvelteKit and TailwindCSS. Easy to customize, with Markdown support and responsive design. Perfect for developers, students, and creators looking to shine online! 🌟
 
@@ -7,7 +7,7 @@ A sleek portfolio & blog template built with SvelteKit and TailwindCSS. Easy to 
 - **SvelteKit Framework**: Powerful reactive components
 - **TailwindCSS**: Easy styling and customization
 - **Markdown Blog Support**: Integrated MDsveX for smooth Markdown rendering
-- **Catppuccin Color Scheme**: Beautiful, customizable color palette 🎨
+- **buri buri Color Scheme**: Beautiful, customizable color palette 🎨
 - **Responsive Design**: Looks great on all devices 📱💻
 - **Easy Customization**: Most content editable in a single TypeScript file
 - **Code Syntax Highlighting**: Shiki for attractive code blocks 💻✨
@@ -71,7 +71,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Aarsh Padia - [@bukubukufps](https://twitter.com/bukubukufps) - <aarshpersonal21@gmail.com>
 
-Project Link: [https://github.com/aarsh21/catppuccin-folio](https://github.com/aarsh21/catppuccin-folio)
+Project Link: [https://github.com/aarsh21/buriburi-folio](https://github.com/aarsh21/catppuccin-folio)
 
 ## 🙏 Acknowledgements
 
